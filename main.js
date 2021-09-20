@@ -72,3 +72,17 @@ let a = prompt("덧셈할 첫 번째 숫자를 입력해주세요.", 1);
 let b = prompt("덧셈할 두 번째 숫자를 입력해주세요.", 2);
 
 alert(+a + +b); // 12
+
+
+
+// 논리 연산자 과제
+
+alert(null || 2 || undefined);  // 2가 출력
+alert(alert(1) || 2 || alert(3)); // 1과 2가 출력
+alert(1 && null && 2);  // null이 출력
+alert(alert(1) && alert(2));  // 1과 undefined가 출력
+alert(null || 2 && 3 || 4); // 3이 출력
+if (age >= 14 && age <= 90) { }
+if (age < 14 || age > 90) { }
+if (!(age >= 14 && age <= 90)) { }
+
